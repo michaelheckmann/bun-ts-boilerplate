@@ -1,0 +1,14 @@
+{
+	"name": "bun-ts",
+	"author": "dayblox",
+	"description": "Bun + TypeScript starter",
+	"scripts": {
+		"dev": "bun --watch src/index.ts",
+		"start": "bun src/index.ts",
+		"test": "bun test"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.5.3",
+		"@types/bun": "latest"
+	}
+}
