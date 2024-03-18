@@ -1,14 +1,12 @@
 {
-	"name": "bun-ts",
-	"author": "dayblox",
-	"description": "Bun + TypeScript starter",
-	"scripts": {
-		"dev": "bun --watch src/index.ts",
-		"start": "bun src/index.ts",
-		"test": "bun test"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "1.5.3",
-		"@types/bun": "latest"
-	}
+  "name": "bun-ts-boilerplate",
+  "description": "Minimal Bun and Typescript boilerplate",
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "start": "bun src/index.ts",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
 }
